@@ -61,11 +61,12 @@ public:
         {
             cout << book << "\n";
         }
-        cout << std::endl;
+        cout << endl;
     }
 };
 
-int main() {
+int main()
+{
     // Create publishers
     Publisher gamaPress("Gama Press");
     Publisher intanPariwara("Intan Pariwara");
